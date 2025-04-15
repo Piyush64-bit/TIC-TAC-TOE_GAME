@@ -92,7 +92,7 @@ button#reset:hover {
 
 }
 
-@media screen and (max-width: 675px)
+@media screen and (max-width: 786px)
 {
     nav {
         font-size: 20px;
