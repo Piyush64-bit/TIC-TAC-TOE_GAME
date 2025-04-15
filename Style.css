@@ -106,7 +106,9 @@ button#reset:hover {
     }
 
     .Container {
-        margin-top: 20px;
+        margin-top: 25vw;
+        grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, 20vw);
     }
 
     .gameInfo {
