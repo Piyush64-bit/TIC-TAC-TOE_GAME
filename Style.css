@@ -91,3 +91,25 @@ button#reset:hover {
     background-color: #d2a34c6d;
 
 }
+
+@media screen and (max-width: 675px)
+{
+    nav {
+        font-size: 20px;
+        padding: 8px 10px;
+        text-align: center;
+    }
+    .Game-Container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .Container {
+        margin-top: 20px;
+    }
+
+    .gameInfo {
+        margin-bottom: 20px;
+    }
+}
