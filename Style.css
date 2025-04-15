@@ -38,7 +38,6 @@ nav {
 
 .box {
     border: 2px solid #73BDA8;
-    
     font-size: 8vw;
     cursor: pointer;
     display: flex;
@@ -113,5 +112,9 @@ button#reset:hover {
 
     .gameInfo {
         margin-bottom: 20px;
+    }
+    .box {
+        font-size: 12vw;
+        align-items: center;
     }
 }
