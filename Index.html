@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <nav>
+        <p>MyTicTacToe.com</p>
+    </nav>
+
+    <div class="Game-Container">
+        <div class="Container">
+            <div onclick="handleClick(this)" id="0" class="box bl-0 bt-0"><span class="Box-Text"></span></div>
+            <div onclick="handleClick(this)" id="1" class="box bt-0"><span class="Box-Text"></span></div>
+            <div onclick="handleClick(this)" id="2" class="box bt-0 br-0"><span class="Box-Text"></span></div>
+            <div onclick="handleClick(this)" id="3" class="box bl-0"><span class="Box-Text"></span></div>
+            <div onclick="handleClick(this)" id="4" class="box"><span class="Box-Text"></span></div>
+            <div onclick="handleClick(this)" id="5" class="box br-0"><span class="Box-Text"></span></div>
+            <div onclick="handleClick(this)" id="6" class="box bl-0 bb-0"><span class="Box-Text"></span></div>
+            <div onclick="handleClick(this)" id="7" class="box bb-0"><span class="Box-Text"></span></div>
+            <div onclick="handleClick(this)" id="8" class="box bb-0 br-0"><span class="Box-Text"></span></div>
+        </div>
+        <div class="gameInfo">
+            <h1>Welcome to MyTicTacToe!</h1>
+            <div>
+              <span class="info"></span>
+              <button id="reset">Reset</button>
+            </div>
+            <div class="imgbox">
+              <img src="./Assets/congratulations-13773_256.gif" alt="" />
+            </div>
+          </div>
+    </div>
+    
+
+    <script src="./Script.js"></script>
+</body>
+</html>

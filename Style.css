@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECE6C2;
+}
+
+
+/* --------------- Nav-Section ------------ */
+nav {
+    background-color: #CC6B49;
+    padding: 10px 12px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 25px;
+    color: #6F5643;
+    cursor: pointer;
+}
+
+
+/* ----------- Game-Section ------------------- */
+.Game-Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    border: 2px solid #73BDA8;
+    
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #6F5643;
+}
+
+.box:hover {
+    background-color: #6f56431f;
+}
+
+.bt-0 {
+    border-top: 0;
+}
+
+.br-0 {
+    border-right: 0;
+}
+
+.bb-0 {
+    border-bottom: 0;
+}
+
+.bl-0 {
+    border-left: 0;
+}
+
+.imgbox img {
+    display: none;
+}
+
+.gameInfo {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    letter-spacing: 2px;
+    color: #73BDA8;
+    padding: 0px 40px;
+}
+
+button#reset {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #D2A24C;
+    color: #6F5643;
+    font-family: 'Special Gothic Expanded One';
+    cursor: pointer;
+}
+
+button#reset:hover {
+    background-color: #d2a34c6d;
+
+}
