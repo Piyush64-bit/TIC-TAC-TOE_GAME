@@ -91,6 +91,15 @@ button#reset:hover {
 
 }
 
+.watermark {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888;
+    padding: 10px;
+    opacity: 0.6;
+    margin-top: 10vh;
+  }
+
 @media screen and (max-width: 786px)
 {
     nav {
@@ -116,5 +125,8 @@ button#reset:hover {
     .box {
         font-size: 12vw;
         align-items: center;
+    }
+    .watermark {
+        margin-top: 24vh;
     }
 }
